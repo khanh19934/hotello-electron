@@ -20,6 +20,7 @@ interface IProps {
   name: string
   fieldProps: any
   type?: string
+  fullWidth?: boolean
 }
 
 const TextInput: React.SFC<IProps & InputProps> = ({

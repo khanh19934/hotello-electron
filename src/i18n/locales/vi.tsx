@@ -6,5 +6,21 @@ export default {
   'signIn.form.button.submit': 'Xác Nhận',
   'signIn.form.email.error.required': 'Email không thể bỏ trống',
   'signIn.form.password.error.required': 'Mật khẩu không thể bỏ trống',
-  'signIn.form.email.error.emailValidation': 'Email không hợp lệ, xin thử lại'
+  'signIn.form.email.error.emailValidation': 'Email không hợp lệ, xin thử lại',
+  'signIn.form.register': 'Bạn không có tài khoản ? Đăng ký ngay',
+  'register.page.title': 'Đăng Ký',
+  'register.step.userInfo': 'Thông tin tài khoản',
+  'register.step.activeCode': 'Mã xác nhận',
+  'register.step.completed': 'Hoàn thành',
+  'register.userInfo.form.firstName': 'Họ',
+  'register.userInfo.form.lastName': 'Tên',
+  'register.userInfo.form.password': 'Mật Khẩu',
+  'register.userInfo.form.email': 'Email',
+  'register.userInfo.form.country': 'Đất Nước',
+  'register.userInfo.form.state': 'Quận, Huyện',
+  'register.userInfo.form.phoneNumber': 'Số điện thoại',
+  'register.userInfo.form.zipCode': 'Mã bưu điện',
+  'register.userInfo.form.city': 'Thành phố',
+  'register.userInfo.form.address': 'Địa chỉ',
+  'register.userInfo.form.hotelName': 'Tên Khách Sạn'
 }

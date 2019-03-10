@@ -6,11 +6,15 @@ interface IHandlerProps {
 }
 
 interface IHandlers {
-  SUBMIT_REGISTER
+  SUBMIT_REGISTER(): void
+  HANDLE_NEXT_STEP(): void
 }
 
 const handlers: HandleCreators<IHandlerProps, IHandlers> = {
   SUBMIT_REGISTER: () => () => {
+    console.log('ok')
+  },
+  HANDLE_NEXT_STEP: () => () => {
     console.log('ok')
   }
 }

@@ -6,5 +6,21 @@ export default {
   'signIn.form.button.submit': '[en] Submit',
   'signIn.form.email.error.required': '[en] Email can not be empty',
   'signIn.form.password.error.required': '[en] Password can not be empty',
-  'signIn.form.email.error.emailValidation': '[en] Email is not valid'
+  'signIn.form.email.error.emailValidation': '[en] Email is not valid',
+  'signIn.form.register': '[en] Don"t have an account ? Register now',
+  'register.page.title': '[en] Register',
+  'register.step.userInfo': '[en] User Information',
+  'register.step.activeCode': '[en] Active code',
+  'register.step.completed': '[en] Register Completed',
+  'register.userInfo.form.firstName': '[en] First Name',
+  'register.userInfo.form.lastName': '[en] Last Name',
+  'register.userInfo.form.password': '[en] Password',
+  'register.userInfo.form.email': '[en] Email',
+  'register.userInfo.form.country': '[en] Country',
+  'register.userInfo.form.state': '[en] State/Province/Region',
+  'register.userInfo.form.phoneNumber': '[en] Phone Number',
+  'register.userInfo.form.zipCode': '[en] Zip / Postal Code',
+  'register.userInfo.form.city': '[en] City',
+  'register.userInfo.form.address': '[en] Address',
+  'register.userInfo.form.hotelName': '[en] Hotel Name'
 }

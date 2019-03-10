@@ -1,4 +1,4 @@
-import { Button, Checkbox, FormControl, FormControlLabel } from '@material-ui/core'
+import { Button, FormControl, Link } from '@material-ui/core'
 import { InjectedFormikProps, withFormik } from 'formik'
 import { always } from 'ramda'
 import * as React from 'react'
@@ -30,19 +30,20 @@ interface IProps {
 
 const InnerForm: React.SFC<InjectedFormikProps<IProps, IFormValues>> = props => {
   const inputProps = getFieldProps(props)
-  const { classes } = props
+  const { classes, onNavigateRegister, isSubmitting } = props
 
-  //   const disable = isSubmitting || !props.isValid
+  const disable = isSubmitting || !props.isValid
 
   return (
     <React.Fragment>
       <FormControl margin="normal" required={true} fullWidth={true}>
         <TextInput autoFocus={true} fieldProps={inputProps} name="email" textLabel={I18n.t('signIn.form.label.email')} />
       </FormControl>
-      <FormControl margin="normal" required={true} fullWidth={true}>
+      <FormControl className={classes.textField} margin="normal" required={true} fullWidth={true}>
         <TextInput fieldProps={inputProps} name="password" textLabel={I18n.t('signIn.form.label.password')} type="password" />
       </FormControl>
-      <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Remember me" />
+
+      <Link onClick={onNavigateRegister}>{I18n.t('signIn.form.register')}</Link>
 
       <Button
         type="button"
@@ -51,6 +52,7 @@ const InnerForm: React.SFC<InjectedFormikProps<IProps, IFormValues>> = props => 
         variant="contained"
         color="primary"
         className={classes.submit}
+        disabled={disable}
       >
         {I18n.t('signIn.form.button.submit')}
       </Button>
