@@ -1,4 +1,4 @@
-import { Colors } from '../../theme';
+import { Colors } from '../../theme'
 
 export default theme => ({
   main: {
@@ -16,8 +16,7 @@ export default theme => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing
-      .unit * 3}px`
+    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`
   },
   avatar: {
     margin: theme.spacing.unit,
@@ -35,5 +34,8 @@ export default theme => ({
     paddingTop: theme.spacing.unit * 8,
     backgroundColor: Colors.laundryBlue,
     height: '100vh'
+  },
+  textField: {
+    marginBottom: theme.spacing.unit * 1.5
   }
-});
+})
