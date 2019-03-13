@@ -22,5 +22,15 @@ export default {
   'register.userInfo.form.zipCode': '[en] Zip / Postal Code',
   'register.userInfo.form.city': '[en] City',
   'register.userInfo.form.address': '[en] Address',
-  'register.userInfo.form.hotelName': '[en] Hotel Name'
+  'register.userInfo.form.hotelName': '[en] Hotel Name',
+  'register.userInfo.form.firstName.error.required': '[en] First Name is required!',
+  'register.userInfo.form.lastName.error.required': '[en] Last Name is required!',
+  'register.userInfo.form.phoneNumber.error.required': '[en] Phone Number is required!',
+  'register.userInfo.form.address.error.required': '[en] Address is required!',
+  'register.userInfo.form.buttonTitle': '[en] Submit',
+  'register.userActiveCode.title': '[en] Input Active Code',
+  'register.userActiveCode.description': '[en] Please input your active code we sent to your email',
+  'register.userActiveCode.buttonTitle': '[en] Submit',
+  'register.userActiveCode.resendCode': "[en] Don't Receive code ? Resend Code",
+  'register.userActiveCode.resendingCode': '[en] Code Sending... Please wait...'
 }
