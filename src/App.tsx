@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { BrowserRouter, withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
+import './App.css'
 import withApiHandleError from './hocs/withApiHandleError.hoc'
 import withAppPreLoading from './hocs/withAppPreload.hoc'
 import withContextProvider from './hocs/withContextProvider.hoc'

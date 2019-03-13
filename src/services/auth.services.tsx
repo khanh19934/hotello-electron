@@ -13,10 +13,10 @@ const loginServices = payload =>
     return token
   })
 
-const checkToken = () => {
+const checkHasToken = () => {
   const token = getAccessToken()
 
-  return isNilOrEmpty(token)
+  return !isNilOrEmpty(token)
 }
 
-export { loginServices, checkToken }
+export { loginServices, checkHasToken }

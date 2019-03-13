@@ -5,7 +5,8 @@ export default theme => ({
     width: '100%',
     paddingTop: theme.spacing.unit * 2,
     backgroundColor: Colors.laundryBlue,
-    height: '100%'
+    minHeight: '100vh',
+    paddingBottom: theme.spacing.unit * 6
   },
   layout: {
     width: 'auto',

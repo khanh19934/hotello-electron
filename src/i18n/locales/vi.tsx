@@ -22,5 +22,15 @@ export default {
   'register.userInfo.form.zipCode': 'Mã bưu điện',
   'register.userInfo.form.city': 'Thành phố',
   'register.userInfo.form.address': 'Địa chỉ',
-  'register.userInfo.form.hotelName': 'Tên Khách Sạn'
+  'register.userInfo.form.hotelName': 'Tên Khách Sạn',
+  'register.userInfo.form.firstName.error.required': 'Họ không thể bỏ trống',
+  'register.userInfo.form.lastName.error.required': 'Tên không thể bỏ trống',
+  'register.userInfo.form.phoneNumber.error.required': 'Số điện thoại không thể bỏ trống',
+  'register.userInfo.form.address.error.required': 'Địa chỉ không thể bỏ trống',
+  'register.userInfo.form.buttonTitle': 'Xác Nhận',
+  'register.userActiveCode.title': 'Mã Xác Nhận',
+  'register.userActiveCode.description': 'Hãy điền mã code mà chúng tôi đã gửi tới email của bạn',
+  'register.userActiveCode.buttonTitle': 'Xác Nhận',
+  'register.userActiveCode.resendCode': 'Không nhận được mã ? Gửi lại mã',
+  'register.userActiveCode.resendingCode': 'Mã đang được gửi... Vui lòng chờ...'
 }

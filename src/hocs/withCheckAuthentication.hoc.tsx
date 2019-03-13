@@ -1,4 +1,3 @@
-import { isNilOrEmpty } from 'ramda-adjunct'
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import * as authServices from '../services/auth.services'
@@ -10,7 +9,9 @@ interface IProps {
 export default ComposedComponent => {
   class Authentication extends Component<IProps, {}> {
     public render() {
-      if (isNilOrEmpty(authServices.checkToken())) {
+      const isHasToken = authServices.checkHasToken()
+
+      if (!isHasToken) {
         return <Redirect to={'/login'} />
       }
 
